@@ -23,14 +23,22 @@ body {
 /* header style */
 #header-style {
   background-color: #fff8f3;
+  display: grid;
+  grid-template-columns: 1fr 10fr;
+}
+
+/* developer image style */
+.developer-img img {
+  height: 700px;
+  padding: 30px 0px 0px 25px;
 }
 
 /* navigation menu style */
 nav {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
-  margin-bottom: 110px;
+  margin: 30px 200px 20px 0px;
 }
 nav .nav-title a {
   color: #181818;
@@ -56,42 +64,38 @@ nav .nav-title a > span {
   color: #474747;
 }
 
-/* image style */
-/* .banner-img .img-bg {
-  width: 780px;
-  position: relative;
-}
-.banner-img .main-img {
-  width: 520px;
-  position: absolute;
-  left: 950px;
-  top: 84px;
-} */
-
 /* banner style */
-/* #banner {
+#banner {
   display: flex;
-  align-items: center;
   justify-content: space-between;
+  align-items: center;
+  background-image: url(../assets/images/header_bg.png);
+  background-repeat: no-repeat;
+  background-position: bottom right;
+}
+
+/* banner content style */
+.banner-content {
+  max-width: 580px;
 }
 .banner-content .banner-greeting {
   font-size: 45px;
   font-weight: 600;
   color: #474747;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
 }
 .banner-content .banner-title {
   font-size: 85px;
   font-weight: 700;
   color: #181818;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 .banner-content .banner-text {
   font-size: 18px;
   font-weight: 400;
   line-height: 30px;
   color: #757575;
-  margin-bottom: 10px;
+  margin-bottom: 30px;
 }
 .contact-btn {
   padding: 15px 35px;
@@ -103,4 +107,8 @@ nav .nav-title a > span {
   color: #fd6e0a;
   cursor: pointer;
   margin-left: 20px;
-} */
+}
+.banner-img{
+  width: 560px;
+  padding-right: 25px;
+}
