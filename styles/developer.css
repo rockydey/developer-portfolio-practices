@@ -108,7 +108,51 @@ nav .nav-title a > span {
   cursor: pointer;
   margin-left: 20px;
 }
-.banner-img{
+
+/* banner image style */
+.banner-img {
   width: 560px;
   padding-right: 25px;
+}
+
+/* about me style */
+.about-me {
+  max-width: 1140px;
+  background: #fff8f3;
+  margin: 120px auto;
+  border-radius: 10px;
+  text-align: center;
+}
+.about-me-title {
+  color: #181818;
+  font-size: 35px;
+  font-weight: 700;
+  padding-top: 120px;
+}
+.about-me-text {
+  max-width: 800px;
+  color: #757575;
+  font-size: 18px;
+  font-weight: 400;
+  margin: 30px auto;
+}
+.dev-info-container {
+  max-width: 800px;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 120px;
+  margin: 0px auto;
+}
+.dev-info-title {
+  color: #757575;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+}
+.dev_info-text {
+  color: #474747;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
 }
