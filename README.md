@@ -1,0 +1,1 @@
+This is my first website in this course. This is developer demo website which make for practices purpose. There is no dynamic feature. It's just a static website without responsive. So, for small device this website not suitable to see. Thank You!
